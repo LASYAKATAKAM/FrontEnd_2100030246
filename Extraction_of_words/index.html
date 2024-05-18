@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extract Words</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .highlight {
+    background-color: yellow;
+  }
+
+  .custom-file-upload {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 100px;
+  }
+
+  .custom-file-upload:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+
+  .upload-icon {
+    margin-right: 10px;
+  }
+
+  #paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<h1>Highlight Long Words from Data</h1>
+<input type="file" id="fileInput" style="display: none;">
+<label for="fileInput" class="custom-file-upload">
+  <i class="fas fa-file-upload upload-icon"></i> Upload Text File
+</label>
+
+<p id="paragraph"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

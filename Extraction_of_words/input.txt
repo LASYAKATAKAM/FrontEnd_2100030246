@@ -1,0 +1,35 @@
+HTML/CSS/JavaScript: Front End Languages
+Three of the most important “front end” languages are HTML, CSS, and JavaScript. These all have specific uses, and all three are used to design websites. They help define form, function, and style – and are all necessary skills to become web developer.
+
+What is HTML
+This is one of the fundamental building blocks of the web. HTML, or “HyperText Markup Language,” has been around in some form since roughly 1993, when it was created by physicist Tim Berners-Lee. It’s now in its fifth generation, HTML5.
+
+HTML isn’t a programming language, rather it’s a “Markup language.” It uses a syntax of tags to change the way text is displayed, for instance. It can also define where images go on a page.
+
+What’s great is that HTML is relatively simple to learn. It provides a great place to start for people who don’t have experience with programming languages to learn the basics of coding.
+
+What is CSS
+CSS or “Cascading Style Sheets” works with HTML to create the format for web pages. It works on top of the foundation of a page that was created with HTML. It also helps adapt pages to different formats optimized for desktops or mobile devices. The latest standard is CSS3, meaning they are in their third generation.
+
+CSS is what gives websites their polished and professional look. It also allows for the addition of interactive elements like background color, headers, shapes, graphics, and more that make websites and web applications much more engaging to the viewer.
+
+What is JavaScript
+JavaScript, which is often abbreviated to JS, is another front-end programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries like JQuery. Whereas HTML & CSS are used to control presentation, formatting, and layout, JavaScript is used to control the behavior of different web elements. 
+
+It is important to learn HTML and CSS before learning JavaScript, since HTML and CSS are the core technologies for building web pages and applications. HTML defines the structure of your content, CSS determines the style and layout, and JavaScript makes the content interactive; therefore, it makes the most sense to learn them in that order. JavaScript incorporates valuable skills such as object-oriented, functional, and imperative styles of programming. Beginner developers, in turn, can apply these skills to any new language they want to learn, like Python and C#.
+
+Understanding how to program in JavaScript is essential to landing any web development job. JavaScript is more complex than both HTML and CSS. However, that doesn’t mean it’s beyond anyone’s grasp. Both professionals and amateur developers both use JavaScript code to make professional-looking websites.
+
+What kind of jobs can I get with HTML, CSS, & Javascript?
+Full Stack Web Developer
+A full-stack web developer can develop both client-side functionality and appearance, as well as back-end server software. To do this, you’ll need to master the basic building blocks of HTML and CSS, then program a browser using JavaScript. Once you have experience working with HTML/CSS/JavaScript, you’ll be a great fit for many different entry-level web development positions, and will have the foundation to dive into server and database technologies. Once getting a handle on browser, server and database systems and how they’re interrelated, you’ll be well on your way to becoming a “full stack” web developer. Becoming a full-stack web developer makes you extremely competitive and sought after by many of the top companies in all geographic areas.
+
+Full Stack developers are sought after in all fields, such as life sciences, financial services, defense, academics, and more. There are both entry-level positions and positions of greater responsibility that require a more sophisticated understanding of all these topics.
+
+Front End Developer
+All websites, APIs, and web applications use HTML, CSS and JS elements to function. Developers are in high demand, as web-dependent businesses continue to evolve constantly. Since trends in design change, there’s always a need for developers to do the behind-the-scenes work to update the user experience to modern design trends.
+
+Web Designer
+As a web designer, you’ll work closely with clients or co-workers to design websites that are functional and visually appealing. You’ll be working not just behind-the-scenes coding in HTML/CSS/JavaScript, but also with the colors, shapes, and fonts that make the website pop for the client.
+
+Common terms in web design you’ll become familiar with are UX and UI design. What is the difference between UX and UI design? UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both elements are crucial to a product and work closely together. But despite their professional relationship, the roles themselves are different, and can refer to very different aspects of the product development process at different stages.
