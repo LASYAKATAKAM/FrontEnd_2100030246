@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safertek</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg_video">
+        <source src="background_video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <h1>Dynamic Form Generator</h1>
+    <div class="wrapper">
+        <div id="survey_options">
+            <div class="form-field">
+                <input type="text" name="survey_options[]" class="survey_options" placeholder="Name">
+            </div>
+            <div class="form-field">
+                <input type="email" name="survey_options[]" class="survey_options" placeholder="Email">
+            </div>
+            
+        </div>
+        <div class="controls">
+            <div class="select-container">
+                <select id="field_type">
+                    <option value="">Select Field to be added</option>
+                    <option value="text">Text Field</option>
+                    <option value="checkbox">Checkbox</option>
+                    <option value="radio">Radio Button</option>
+                    <option value="select">Dropdown</option>
+                    <option value="date">Date Field</option>
+                    <option value="number">Number Field</option>
+                </select>
+            </div>
+            <div class="button-container">
+                <a href="#" id="add_more_fields"><i class="fa fa-plus"></i> Add More</a>
+                <a href="#" id="remove_fields"><i class="fa fa-minus"></i> Remove Field</a>
+            </div>
+        </div>
+        <input type="submit" id="submit_button" value="Submit">
+        <div id="error_box" class="message-box"></div>
+    </div>
+    <script src="form-builder.js"></script>
+</body>
+</html>

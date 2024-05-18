@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.file-upload-label {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #4f4c4c;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.file-upload-label i {
+    margin-right: 10px;
+}
+
+.file-upload-label span {
+    vertical-align: middle;
+}
+
+.file-upload-label:hover {
+    background-color: #545151;
+}
+
+#fileUpload {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #4f4e4e;
+}
+
+th {
+    background-color: #605d5d;
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #726f6f;
+}
+
+tr:hover {
+    background-color: #565151;
+}
+
+#filter {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #545252;
+    border-radius: 4px;
+    background-color: #dad4d4;
+}
+
+#pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.page-link {
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.page-link:hover {
+    background-color: #555454;
+}
+
+.page-link.active {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}

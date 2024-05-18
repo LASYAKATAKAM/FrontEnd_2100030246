@@ -1,0 +1,190 @@
+#bg_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(54, 77, 138);
+    margin-top: 50px;
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 6px solid white;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+h1 span {
+    position: relative;
+    display: inline-block;
+}
+
+h1 span::before, h1 span::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+h1 span::before {
+    top: 2px;
+    z-index: -2;
+}
+
+h1 span::after {
+    top: -2px;
+    z-index: -1;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    padding: 8px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: black;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.checkbox, .radio {
+    margin-right: 10px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.select-container {
+    width: 50%;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.controls a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.controls a:hover {
+    background-color: #45a049;
+}
+
+.controls a i {
+    margin-right: 5px;
+}
+
+#remove_fields {
+    background-color: #f44336;
+}
+
+#remove_fields:hover {
+    background-color: #e53935;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.message-box {
+    background-color: rgba(244, 67, 54, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.message-box.success {
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+.message-box.info {
+    background-color: rgba(33, 150, 243, 0.8);
+}
+
+.message-box.warning {
+    background-color: rgba(255, 152, 0, 0.8);
+}
